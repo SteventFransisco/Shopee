@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frankenstein</title>
+    <style>
+        .divpractice {
+            width: 900px;
+            height: 500px;
+
+            background-color: gray;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            padding: 13px;
+
+            margin: 0px auto 0px auto;
+        }
+
+        .divpractice>.first {
+            width: 40%;
+            height: 200px;
+
+            background-color: red;
+        }
+
+        .divpractice>.second {
+            width: 40%;
+            height: 300px;
+
+            background-color: white;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .divpractice>.second>button {
+            margin-right: 5px;
+            padding: 10px;
+        }
+    </style>
+
+    <script>
+        function hey() {
+            alert('hello')
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Cloning Shopee</h1>
+    <h2>subtitle shopee</h2>
+    <input type="text" id="input-box">
+    <div class="divpractice">
+        <div class="first">First Div</div>
+        <div class="second" id="second-box">
+            <button onclick="hey()">first</button>
+            <button>second</button>
+            <button>third</button>
+        </div>
+    </div>
+</body>
+
+</html>
