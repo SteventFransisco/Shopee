@@ -41,6 +41,7 @@
 .bottom-section > li > span {
     margin-bottom: auto;
     text-align: center;
+    margin: auto;
 }
 
 .swiper {
